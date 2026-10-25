@@ -1,0 +1,16 @@
+{
+  "name": "nexora-xray-singbox-panel",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Nexora Persian panel with real Xray and sing-box WebSocket inbounds",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "uuid": "^11.0.5",
+    "http-proxy": "^1.18.1"
+  }
+}
